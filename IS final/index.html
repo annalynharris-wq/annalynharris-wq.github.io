@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="Images/logo.svg" alt="Anna & Co logo">
+    </a>
+
+    <nav class="main-nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="lookbook.html">Studio</a>
+      <a href="resume.html">Résumé</a>
+    </nav>
+
+    <a class="btn" href="services.html">Book</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Luxury Hair, Thoughtfully Done</h1>
+    <p>Blonding • Color • Cuts • Styling</p>
+    <a class="btn" href="services.html">View Services</a>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>About Anna & Co</h2>
+  <p>
+    Anna & Co is a boutique hair studio specializing in custom blonding,
+    modern cuts, and elevated styling. Every appointment is one-on-one,
+    intentional, and tailored to your lifestyle.
+  </p>
+</section>
+
+<section class="wrap cards">
+  <div class="card">
+    <h3>Custom Blonding</h3>
+    <p>Lived-in color, money pieces, and dimensional blondes.</p>
+  </div>
+  <div class="card">
+    <h3>Bridal & Events</h3>
+    <p>Soft, timeless styles for weddings and special occasions.</p>
+  </div>
+  <div class="card">
+    <h3>Personal Experience</h3>
+    <p>A calm, elevated studio with full attention to detail.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  © <span id="year"></span> Anna & Co
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
